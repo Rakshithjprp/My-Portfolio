@@ -2,6 +2,6 @@
 
 Netlify
 
-![Badge](https://img.shields.io/badge/Project--15-Live-brightgreen)
+![Badge](https://img.shields.io/badge/My--Portfolio-Is%20Live-blue)
 
-[Project-15 live-link](https://live-class-project-15-rj.netlify.app/)
+[My-Portfolio live-link](https://rakshithj-my-portfolio.netlify.app/)
