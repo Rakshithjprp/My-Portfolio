@@ -1,183 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resposive.css">
+  <title>Portfolio(Rakshith J)</title>
 </head>
 <body>
-    <div class="container">
-
-        <nav>
-            <ul class="menu">
-                <li class="menu-item"><a href="#home">Home</a></li>
-                <li class="menu-item"><a href="#about">About Me</a></li>
-                <li class="menu-item"><a href="#projects">Projects</a></li>
-                <li class="menu-item"><a href="#contact">Contact</a></li>
-                <li class="menu-item"><a href="https://online.flippingbook.com/view/193533857/" target="_blank">Resume</a></li>
-                
-            </ul>
-        </nav>
-
-        <!-- home section -->
-
-        <div class="home" id="home">
-            <div class="home-image">
-                <img src="./images/photo.jpeg" alt="" srcset="" height="420" width="420" class="home-img">
+  <header>
+    <div class="head">
+        <div class="logo">
+        <img src="./images/rj.png" alt="" srcset="">
+        </div>
+        <label for="toggle">
+            <div class="icon">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-            <div class="home-content">
-                <h1>My name is Rakshith<br> and I am a web developer.</h1>
-                <ul>
-                    <li class="item-home"><a href="#about">About Me</a></li>
-                    <li class="item-home"><a href="#contact">Contact Me here</a></li>
-                </ul>
-            </div>
+        </label>
+    </div>
+
+    <input type="checkbox"  id="toggle">
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://online.flippingbook.com/view/193533857/">Resume</a></li>
+        
+    </ul>
+</header>
+
+
+  <!-- home section -->
+
+  <div class="home" id="home">
+    <div class="home-image">
+        <img src="./images/photo.jpeg" alt="" srcset="" height="420" width="420" class="home-img">
+    </div>
+    <div class="home-content">
+        <h1>My name is Rakshith<br> and I am a web developer.</h1>
+        <ul>
+            <li class="item-home"><a href="#about">About Me</a></li>
+            <li class="item-home"><a href="#contact">Contact Me here</a></li>
+        </ul>
+    </div>
+</div>
+
+
+ <!--about about me -->
+ <div id="about">
+    <h1>About Me</h1>
+</div>
+<div class="about" id="about">
+    
+    <div class="about-content">
+        <p>I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; I build websites that delight and inform. I do it well. I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
+    </div>
+    <div class="about-image">
+        <img src="./images/undraw_laravel_and_vue_59tp.png" alt="" srcset="" width="300" height="300">
+    </div>
+</div>
+
+
+  <!-- projects -->
+  <div class="projects" id="projects">
+    <div class="projects-head">
+        <h1>My Projects</h1>
+    </div>
+    <div class="proj">
+        <div class="proj-item">
+            <img src="./images/p1.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-1-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-1" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p2.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-2-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-2" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p3.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-3-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-3" target="_blank">Source Code</a></div>
+           </div>
         </div>
 
-        <!--about about me -->
-        <div id="about">
-            <h1>About Me</h1>
-        </div>
-        <div class="about" id="about">
-            
-            <div class="about-content">
-                <p>I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; I build websites that delight and inform. I do it well. I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
-            </div>
-            <div class="about-image">
-                <img src="./images/undraw_laravel_and_vue_59tp.png" alt="" srcset="" width="300" height="300">
-            </div>
+        <div class="proj-item">
+            <img src="./images/p4.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-4-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-4" target="_blank">Source Code</a></div>
+           </div>
         </div>
 
-        <!-- projects -->
-        <div class="projects" id="projects">
-            <div class="projects-head">
-                <h1>My Projects</h1>
-            </div>
-            <div class="proj">
-                <div class="proj-item">
-                    <img src="./images/p1.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-1-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-1" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p2.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-2-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-2" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p3.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-3-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-3" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-
-                <div class="proj-item">
-                    <img src="./images/p4.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-4-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-4" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-
-                <div class="proj-item">
-                    <img src="./images/p5.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-5-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-5" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p6.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-6-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-6" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-
-                <div class="proj-item">
-                    <img src="./images/p7.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-7-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-7" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p8.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-8-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-8" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-
-                <div class="proj-item">
-                    <img src="./images/p9.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-9-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-9" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                
-                <div class="proj-item">
-                    <img src="./images/p10.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-10-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-10" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-
-                <div class="proj-item">
-                    <img src="./images/p11.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-11-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-11" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p12.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-12-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-12" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p13.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-13-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-13" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p14.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-14-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-14" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                <div class="proj-item">
-                    <img src="./images/p15.png" alt="" srcset="">
-                   <div class="link-items">
-                    <div class="link"><a class="link1" href="https://live-class-project-15-rj.netlify.app/" target="_blank">Live Link</a></div>
-                    <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-15" target="_blank">Source Code</a></div>
-                   </div>
-                </div>
-                
-            </div>
+        <div class="proj-item">
+            <img src="./images/p5.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-5-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-5" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p6.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-6-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-6" target="_blank">Source Code</a></div>
+           </div>
         </div>
 
-        <!-- contact me -->
+        <div class="proj-item">
+            <img src="./images/p7.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-7-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-7" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p8.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-8-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-8" target="_blank">Source Code</a></div>
+           </div>
+        </div>
 
-        <div class="contact" id="contact">
+        <div class="proj-item">
+            <img src="./images/p9.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-9-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-9" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        
+        <div class="proj-item">
+            <img src="./images/p10.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-10-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-10" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+
+        <div class="proj-item">
+            <img src="./images/p11.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-11-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-11" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p12.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-12-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-12" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p13.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-13-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-13" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p14.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-14-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-14" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        <div class="proj-item">
+            <img src="./images/p15.png" alt="" srcset="">
+           <div class="link-items">
+            <div class="link"><a class="link1" href="https://live-class-project-15-rj.netlify.app/" target="_blank">Live Link</a></div>
+            <div class="link"><a class="link1" href="https://github.com/Rakshithjprp/live-class-project-15" target="_blank">Source Code</a></div>
+           </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+         <!-- contact me -->
+
+         <div class="contact" id="contact">
             <h1>Rakshith J</h1>
             <p>Phone no: <a href="tel:8884103586">8884103586</a></p>
             <p>Email: <a href="mailto:rakshith.jaikumar.08@gmail.com">rakshith.jaikumar.08@gmail.com</a></p>
-            <p>For more information please follow my social media<br> platforms. Click on the link below to subscribe to my socials:</p>
+            <p>For more information please follow my social media<br class="hide"> platforms. Click on the link below to subscribe to my socials:</p>
             <div class="social-icon">
                 
 
@@ -189,6 +207,5 @@
             </div>
         </div>
 
-    </div>
 </body>
 </html>
